@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.dark body {
+  background-color: rgb(17, 24, 39);
+  color: white;
+}
+
+.light body {
+  background-color: rgb(249, 250, 251);
+  color: black;
+}
